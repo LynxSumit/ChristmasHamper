@@ -12,10 +12,10 @@ export const CartSlice = createSlice({
     AddToCart: (state, action) => {
       state.data.push(action.payload.value)
     },
-    DeleteFromCart: (state, action) => {
-     const {value} = action.payload;
-     
-    },
+    // DeleteFromCart: (state, action) => {
+    //  const {value} = action.payload;
+
+    // },
   
   },
 });

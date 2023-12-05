@@ -33,7 +33,8 @@ export default function Navbar() {
   const {dispatch} = useDispatch()
    
   const deleteHandler = (item) => {
-dispatch()
+// dispatch()
+console.log(item)
   }
 
   const toggleDrawer = (inOpen) => (event) => {
